@@ -9,7 +9,7 @@ a{
 }
 
 a:hover{
-    color:limegreen;
+    color:red;
 }
 
 a:active {
@@ -39,7 +39,8 @@ h1 {
     padding: 5px;
     margin: 10px;
     display: inline-flex;
-    width: 450px;
+    width: 447px;
+    position: relative;
 }
 
 .item:hover{
@@ -105,4 +106,11 @@ header .backbutton {
 footer {
     margin-top: 10px;
     text-align: center;
+}
+
+.detailButton{
+    position: absolute;
+    left: 332px;
+    top: 130px;
+
 }
